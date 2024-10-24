@@ -1,0 +1,6 @@
+[submodule "GP-STT"]
+	path = GP-STT
+	url = https://github.com/YousefMTaha/GP-STT.git
+[submodule "GP-TTS"]
+	path = GP-TTS
+	url = https://github.com/YousefMTaha/GP-TTS.git
