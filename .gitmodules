@@ -4,3 +4,6 @@
 [submodule "GP-TTS"]
 	path = GP-TTS
 	url = https://github.com/YousefMTaha/GP-TTS.git
+[submodule "AI-interview-prototype"]
+	path = AI-interview-prototype
+	url = https://github.com/mostafamagde/AI-interview-prototype.git
