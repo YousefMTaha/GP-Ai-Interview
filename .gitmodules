@@ -7,6 +7,3 @@
 [submodule "AI-interview-prototype"]
 	path = AI-interview-prototype
 	url = https://github.com/mostafamagde/AI-interview-prototype.git
-[submodule "GP-Backend-Nodejs"]
-	path = GP-Backend-Nodejs
-	url = https://github.com/YousefMTaha/GP-Backend-Nodejs.git
