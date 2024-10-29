@@ -28,7 +28,19 @@ async def convert_text_to_voice():
     audio_path = await synthesize_speech(text=text)
 
     if os.path.exists(audio_path):
-        print(audio_path)
+        return send_file(audio_path, as_attachment=True, download_name="generated_audio.mp3")
+    else:
+        return jsonify({'error': 'Failed to generate audio'}), 500
+
+
+@app.route('/models_integration', methods=['POST'])
+async def speech_to_speech():
+    audio_file = request.files['audio']
+    audio_data, _ = librosa.load(audio_file, sr=16000)
+    text = pipe(audio_data)['text'].strip()
+    audio_path = await synthesize_speech(text=text)
+
+    if os.path.exists(audio_path):
         return send_file(audio_path, as_attachment=True, download_name="generated_audio.mp3")
     else:
         return jsonify({'error': 'Failed to generate audio'}), 500
