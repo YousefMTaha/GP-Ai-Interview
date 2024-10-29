@@ -1,12 +1,12 @@
 [submodule "GP-STT"]
-	path = GP-STT
+	path = GP_STT
 	url = https://github.com/YousefMTaha/GP-STT.git
 [submodule "GP-TTS"]
-	path = GP-TTS
+	path = GP_TTS
 	url = https://github.com/YousefMTaha/GP-TTS.git
 [submodule "AI-interview-prototype"]
-	path = AI-interview-prototype
+	path = AI_interview_prototype
 	url = https://github.com/mostafamagde/AI-interview-prototype.git
 [submodule "GP-Backend-Nodejs"]
-	path = GP-Backend-Nodejs
+	path = GP_Backend_Nodejs
 	url = https://github.com/YousefMTaha/GP-Backend-Nodejs.git
