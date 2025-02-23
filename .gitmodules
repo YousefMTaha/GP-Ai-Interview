@@ -10,3 +10,6 @@
 [submodule "GP-Backend-Nodejs"]
 	path = GP_Backend_Nodejs
 	url = https://github.com/YousefMTaha/GP-Backend-Nodejs.git
+[submodule "LinkAI"]
+	path = LinkAI
+	url = https://github.com/zeyadali06/LinkAI.git
